@@ -10,7 +10,7 @@ SET(RAW2DNG_VERSION_PATCH 2)
 # configure a header file to pass some of the CMake settings
 # to the source code
 CONFIGURE_FILE ( "${CMAKE_CURRENT_SOURCE_DIR}/config.h.cmake"
-                 "${CMAKE_CURRENT_BINARY_DIR}/config.h" )
+                 "${CMAKE_CURRENT_SOURCE_DIR}/config.h" )
 
 SET( EXIV2_MIN_VERSION "0.21" )
 FIND_PACKAGE( Exiv2 )
